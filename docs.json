@@ -1,0 +1,98 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Roomdoo Academy",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1D4ED8"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guías Academy",
+        "pages": [
+          {
+            "group": "Empieza aquí",
+            "pages": [
+              "bienvenido",
+              "primeros-pasos-roomdoo",
+              {
+                "group": "Reservas",
+                "pages": [
+                  "gestion-de-reservas",
+                  "creacion-de-reservas",
+                  "busqueda-de-reservas",
+                  "creacion-de-bloqueos",
+                  "reservas-de-grupos",
+                  "modificar-fechas-de-reserva"
+                ]
+              },
+              {
+                "group": "Facturación",
+                "pages": [
+                  "como-crear-facturas",
+                  "modificacion-de-proforma",
+                  "exportar-listado-facturas-pdf"
+                ]
+              },
+              "como-hacer-check-in",
+              "como-hacer-check-out",
+              "como-registrar-un-cobro",
+              "como-crear-y-cambiar-tarifas",
+              "restricciones-y-planes-de-disponibilidad",
+              "como-escanear-documentos",
+              "ses-hospedajes",
+              "ses-hospedajes-registro",
+              "exportar-datos-ine",
+              "crear-usuario-booking"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/light.svg",
+    "href": "https://roomdoo.com/wp-content/uploads/2024/07/header-Logo-Roomdoo-color.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contacto",
+        "href": "mailto:hola@roomdoo.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/weraeroomdoo",
+      "linkedin": "https://linkedin.com/company/roomdoo",
+      "instagram": "https://instagram.com/weareroomdoo",
+      "github": "https://academy.roomdoo.com/website/social/github",
+      "youtube": "https://academy.roomdoo.com/website/social/youtube"
+    }
+  },
+  "appearance": {
+    "strict": false
+  }
+}

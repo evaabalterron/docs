@@ -1,0 +1,57 @@
+---
+title: "Restricciones y planes de disponibilidad"
+icon: "calendar-check"
+---
+
+# Cómo aplicar restricciones y planes de disponibilidad en Roomdoo
+
+En este vídeo te mostramos todos los detalles para cambios de tarifas, restricciones y disponibilidad:
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ZeuQ_jIlhtI?rel=0&autoplay=0" frameBorder="0" allowFullScreen />
+
+Para cambiar las restricciones de disponibilidad en Roomdoo, se accede desde la parte inferior izquierda del calendario, pulsando en el botón **Cambiar precios y restricciones**.
+
+En ese momento se desplegará un panel con las categorías de la propiedad para cada día del calendario.
+
+<div style={{display: "flex", justifyContent: "center"  }}>
+  <img src="https://academy.roomdoo.com/web/image/14009-a809b38e/precios%20y%20restricciones.webp?access_token=898c8387-f495-4124-9271-a30385ef9f1d" alt="Reservas de grupos" style={{ maxWidth: "600px", width: "100%" }} />
+</div>
+
+Para cada día y habitación es posible modificar los siguientes parámetros:
+
+- **Cupo:** Hace referencia a la cantidad de habitaciones que un hotel tiene disponibles para ofrecer a los huéspedes a través de los canales de venta. El cupo puede ser limitado y varía según la demanda y la temporada.
+  - Si el cupo se pone a `-1` indicará que todas las habitaciones disponibles podrán venderse a través de los canales de venta online.
+  - Si el cupo se pone a `0` indicará que se están cerrando las ventas online.
+  - Si el cupo se pone con otro valor entero indicará el número máximo de habitaciones de este tipo (y en el día seleccionado) disponibles para venta online.
+- **Máxima disponibilidad:** Este parámetro se combina con el cupo, de modo que cuando el cupo está configurado a `-1` (indicando que todas las habitaciones están disponibles para la venta), aquí se puede limitar para que se vendan en cantidades más pequeñas, de modo que en Booking o en otro canal de venta online pueda aparecer un aviso de últimas habitaciones disponibles.
+  Por ejemplo, si el hotel tiene 8 habitaciones disponibles y se configura el cupo a `-1` para que todas se vendan online, se podría poner Máx. dispo=`2` para que las habitaciones vayan apareciendo a la venta en Booking de dos en dos. Al poner Máx. dispo=`-1` simplemente se indica a Roomdoo que no aplique ninguna restricción y saque todas a los canales online de forma simultánea.
+- **Estancia mínima:** La estancia mínima hace referencia al número mínimo de noches que un huésped debe reservar para poder alojarse en el hotel. Este tipo de política suele aplicarse durante temporadas altas, fines de semana largos, puentes, eventos especiales o promociones.
+- **Estancia máxima:** Indica el número máximo de noches que un huésped puede permanecer en el hotel en una sola reserva. Esta política puede estar orientada a evitar largas estadías y a asegurar la rotación de huéspedes, o puede estar relacionada con limitaciones operativas o legales. Se pone `-1` para indicar disponibilidad ilimitada/sin restricciones.
+- **Cerrada:** Este parámetro sirve para cerrar las ventas online del tipo de habitación indicado durante ese día. Independientemente del valor del resto de parámetros, con marcar este check las ventas quedan automáticamente cerradas. Esto puede ser útil, por ejemplo, si de repente el hotel recibe una reserva por teléfono para todas las habitaciones un día concreto.
+- **Estancia mínima llegada:** Estancia mínima desde el día del check-in. Solo las estadías con llegada en ese día específico deben cumplir con esta restricción.
+- **Llegada cerrada:** Este parámetro detiene la entrada de nuevas reservas con fecha de llegada (check-in) en un día seleccionado.
+- **Salida cerrada:** Este parámetro cancela la entrada de nuevas reservas con fecha de salida (check-out) en un día seleccionado.
+
+## Cambios masivos
+
+Como establecer el precio día a día para cada tipo de habitación puede resultar tedioso, esto se puede hacer de forma automatizada más rápidamente.
+
+<Tip>
+  **<u>TRUCO</u>**: A través del botón que se encuentra en la parte inferior derecha se pueden hacer **Cambios masivos**.
+</Tip>
+
+<div style={{display: "flex", justifyContent: "center"  }}>
+  <img src="https://academy.roomdoo.com/web/image/14013-33769b84/cambios%20masivos.webp?access_token=0c04cfba-c3e6-4ebf-8069-25436bce6ab8" alt="Reservas de grupos" style={{ maxWidth: "600px", width: "100%" }} />
+</div>
+
+Se abrirá una ventana que permite configurar los parámetros anteriormente mencionados sobre unas fechas concretas o incluso distinguiendo días de la semana.
+
+<div style={{display: "flex", justifyContent: "center"  }}>
+  <img src="https://academy.roomdoo.com/web/image/14011-3b9dd096/cambios%20masivos%202.webp?access_token=60725bff-deb6-422e-9484-f7bd2abdf11b" alt="Reservas de grupos" style={{ maxWidth: "600px", width: "100%" }} />
+</div>
+
+De esta manera, es posible **aplicar tarifas y restricciones de forma sencilla** para uno o varios tipos de habitaciones durante un periodo de tiempo concreto.
+
+<Info>
+  Si solamente quieres cambiar los precios y restricciones de una habitación o un día concreto sin necesidad de aplicar cambios masivos, revisa la guía de [cómo establecer y cambiar tarifas en Roomdoo.](/como-crear-y-cambiar-tarifas)
+</Info>
