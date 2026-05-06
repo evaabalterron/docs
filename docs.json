@@ -7,7 +7,10 @@
     "light": "#3B82F6",
     "dark": "#1D4ED8"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/favicon.svg",
+    "dark": "/favicon.svg"
+  },
   "navigation": {
     "tabs": [
       {
@@ -56,7 +59,7 @@
   "logo": {
     "light": "/logo/header-Logo-Roomdoo-color (2).svg",
     "dark": "/logo/header-Logo-Roomdoo-color (2).svg",
-    "href": "https://roomdoo.com/wp-content/uploads/2024/07/header-Logo-Roomdoo-color.svg"
+    "href": "https://docs.roomdoo.com/"
   },
   "navbar": {
     "links": [
@@ -94,5 +97,18 @@
   },
   "appearance": {
     "strict": false
+  },
+  "description": "Documentación de Roomdoo",
+  "fonts": {
+    "family": "Inter",
+    "body": {
+      "family": "Inter"
+    }
+  },
+  "search": {
+    "prompt": "Busca o pregunta..."
+  },
+  "seo": {
+    "indexing": "navigable"
   }
 }
