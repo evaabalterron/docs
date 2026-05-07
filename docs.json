@@ -33,17 +33,17 @@
                 ]
               },
               {
-                "group": "Facturación",
+                "group": "Facturación y cobros",
                 "pages": [
                   "como-crear-facturas",
                   "modificacion-de-proforma",
-                  "exportar-listado-facturas-pdf"
+                  "exportar-listado-facturas-pdf",
+                  "como-registrar-un-cobro",
+                  "como-crear-y-cambiar-tarifas"
                 ]
               },
               "como-hacer-check-in",
               "como-hacer-check-out",
-              "como-registrar-un-cobro",
-              "como-crear-y-cambiar-tarifas",
               "restricciones-y-planes-de-disponibilidad",
               "como-escanear-documentos",
               "ses-hospedajes",
